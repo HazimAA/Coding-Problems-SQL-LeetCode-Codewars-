@@ -2,7 +2,7 @@
 ```
 FirstName, LastName, City, State
 ```
-[Link to Question](https://leetcode.com/problems/nth-highest-salary/)
+[Link to Question](https://leetcode.com/problems/combine-two-tables/)
 ```
 +-------------+---------+
 | Column Name | Type    |
