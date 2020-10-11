@@ -29,10 +29,11 @@ AddressId is the primary key column for this table.
 
 Solution:
 
-SELECT FirstName, LastName, City, State
-FROM 
-Person 
-LEFT JOIN 
-Address    
-ON Person.PersonId = Address.PersonId
-;
+
+  SELECT FirstName, LastName, City, State
+  FROM 
+  Person 
+  LEFT JOIN 
+  Address    
+  ON Person.PersonId = Address.PersonId
+  ;
