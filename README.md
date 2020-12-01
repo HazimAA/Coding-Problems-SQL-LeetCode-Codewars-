@@ -1,2 +1,2 @@
-# Coding-Problems-SQL-LeetCode-Codewars-
-An assortment of SQL coding questions and their solutions, from LeetCode and Codewars.
+# Coding-Problems-SQL-LeetCode-Codewars-AdventofCode
+An assortment of SQL/Python coding questions and their solutions.
