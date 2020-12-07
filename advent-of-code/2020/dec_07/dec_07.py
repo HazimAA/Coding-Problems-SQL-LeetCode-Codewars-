@@ -26,13 +26,13 @@ while len(list_of_potential_parent_bags) != trial:
 print('Part 1: ', len(list_of_potential_parent_bags)-1)
 
 
+#Credits to Ali Spittel (https://github.com/aspittel/advent-of-code/blob/master/2020/dec-07/script.py) for the logic here. 
 def traverse(key, tree):
     # print(key)
-    if key == ' no other bags.':
+    if key == 'no other bag':
         return 0
     _sum = sum([i for i in tree[key].values()])
     return _sum + sum([tree[key][i] * traverse(i, tree) for i in tree[key]])
-
 
 tree = {}
 
@@ -51,7 +51,7 @@ for i in range(0,len(list_of_bag_and_reqs),1):
         # print(text_and_num)
         num = int(text_and_num[0]) if text_and_num[0].isdigit() else 0
         try:
-            bag = text_and_num[1]
+            bag = text_and_num[-1]
         except:
             pass
         temp_dict[bag] = num
